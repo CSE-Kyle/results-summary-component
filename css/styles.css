@@ -1,0 +1,112 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(221, 100%, 96%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: HankGro;
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 2rem;
+  width: 46rem;
+}
+
+.results {
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  border-radius: 2rem;
+  width: 23rem;
+  height: 32rem;
+}
+
+.container {
+  display: flex;
+}
+
+.total-score,
+.grade-score,
+.rating {
+  color: hsl(0, 0%, 100%);
+}
+
+.result-heading,
+.circle {
+  margin-top: 2.188rem;
+}
+
+.result,
+.grade-score {
+  font-size: 1.125rem;
+}
+
+.circle,
+.rating,
+.result {
+  margin-top: 0.875rem;
+}
+
+.circle {
+  background: linear-gradient(
+    to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 50%;
+  margin: 2.188rem auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rating {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 1.5rem;
+}
+
+.result-heading {
+  color: hsl(241, 100%, 89%);
+  text-align: center;
+  font-weight: 500;
+}
+
+.result-score {
+  text-align: center;
+}
+
+.total-score {
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.grade-score {
+  color: hsl(241, 100%, 89%);
+  margin: 0;
+}
+
+.result {
+  color: hsl(241, 100%, 89%);
+  width: 16.25rem;
+  text-align: center;
+  margin: 0.875rem auto 0 auto;
+  font-weight: 500;
+}
+
+/* summary section */
