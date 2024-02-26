@@ -2,6 +2,7 @@
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
@@ -21,6 +22,17 @@ main {
   width: 46rem;
 }
 
+.result-heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+#out-of {
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: hsl(241, 100%, 89%);
+}
+
 .results {
   background: linear-gradient(
     to bottom,
@@ -37,7 +49,6 @@ main {
 }
 
 .total-score,
-.grade-score,
 .rating {
   color: hsl(0, 0%, 100%);
 }
@@ -47,14 +58,8 @@ main {
   margin-top: 2.188rem;
 }
 
-.result,
-.grade-score {
-  font-size: 1.125rem;
-}
-
 .circle,
-.rating,
-.result {
+.rating {
   margin-top: 0.875rem;
 }
 
@@ -68,6 +73,7 @@ main {
   height: 12.5rem;
   border-radius: 50%;
   margin: 2.188rem auto 0 auto;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,6 +97,8 @@ main {
 }
 
 .total-score {
+  display: flex;
+  flex-direction: column;
   font-size: 4.5rem;
   font-weight: 700;
   margin: 0;
@@ -103,10 +111,109 @@ main {
 
 .result {
   color: hsl(241, 100%, 89%);
-  width: 16.25rem;
+  font-size: 1.125rem;
   text-align: center;
-  margin: 0.875rem auto 0 auto;
-  font-weight: 500;
+  display: block;
+  padding: 0.875rem 3.438rem 0;
 }
 
 /* summary section */
+h2 {
+  font-weight: 500;
+}
+
+.num-rating,
+.total-rating {
+  font-size: 1.125rem;
+}
+
+.total-rating {
+  color: hsl(224, 30%, 27%, 0.5);
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.875rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.num-rating {
+  margin-left: 8rem;
+}
+
+button {
+  border: none;
+  padding: 15px;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 2rem;
+  font-size: 1.125rem;
+  width: 18rem;
+  height: 3.5rem;
+  margin: 0 auto;
+}
+
+button:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+.category {
+  font-size: 1.125rem;
+}
+
+.label-reaction {
+  color: hsl(0, 100%, 67%);
+}
+
+.label-memory {
+  color: hsl(39, 100%, 56%);
+}
+
+.label-verbal {
+  color: hsl(166, 100%, 37%);
+}
+
+.label-visual {
+  color: hsl(234, 85%, 45%);
+}
+
+.reaction {
+  background-color: hsla(0, 100%, 95%, 0.5);
+}
+
+.memory {
+  background-color: hsla(39, 100%, 95%, 0.5);
+}
+
+.verbal {
+  background-color: hsla(166, 100%, 95%, 0.5);
+}
+
+.visual {
+  background-color: hsl(234, 85%, 95%, 0.5);
+}
