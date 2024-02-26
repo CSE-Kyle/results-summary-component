@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .results {
+    width: 100%;
+  }
+
+  .circle {
+    width: 8.75rem;
+    height: 8.75rem;
+  }
+
+  .num-rating {
+    margin-left: 0;
+    text-align: right;
+  }
+
+  .result {
+    margin: 0 auto;
+  }
+
+  button {
+    margin: 0.875rem;
+  }
+}
