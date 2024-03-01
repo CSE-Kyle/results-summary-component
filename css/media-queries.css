@@ -1,15 +1,20 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 31.25rem) {
+  main {
+    max-height: 100vh;
+  }
+
   .container {
-    display: flex;
     flex-direction: column;
+    max-height: 100vh;
   }
 
   h2 {
-    text-align: center;
+    text-align: start;
   }
 
   .results {
-    width: 100%;
+    margin: 0 auto;
+    width: 32rem;
   }
 
   .circle {
