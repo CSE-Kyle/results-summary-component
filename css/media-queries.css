@@ -10,6 +10,8 @@
 
   h2 {
     text-align: start;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   .results {
